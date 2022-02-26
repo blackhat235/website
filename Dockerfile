@@ -1,3 +1,4 @@
 
-FROM httpd
-ADD . /var/www/html
+
+FROM httpd:2.4
+COPY . /usr/local/apache2/htdocs/
